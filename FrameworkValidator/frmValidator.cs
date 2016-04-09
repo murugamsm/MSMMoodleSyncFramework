@@ -16,5 +16,10 @@ namespace FrameworkValidator
         {
             InitializeComponent();
         }
+
+        private void frmValidator_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

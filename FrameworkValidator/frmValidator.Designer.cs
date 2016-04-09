@@ -28,9 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // frmValidator
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(962, 599);
+            this.Name = "frmValidator";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.frmValidator_Load);
+            this.ResumeLayout(false);
+
         }
 
         #endregion
